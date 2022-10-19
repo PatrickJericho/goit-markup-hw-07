@@ -43,6 +43,7 @@ h1, h2, h3, p, ul {
 
 img {
     display: block;
+    margin-bottom: 0;
 }
 
 button {
