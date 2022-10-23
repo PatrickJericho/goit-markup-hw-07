@@ -4,14 +4,15 @@
     padding-top: 60px;
     padding-bottom: 60px;
     margin-left: auto;
-    margin-right: auto;
-    &__container {
-        display: flex;
-        align-items: baseline;
-    }
+    margin-right: auto;    
     &__logo {
         margin-bottom: 20px;
     }
+}
+
+.container--footer {
+    display: flex;
+    align-items: baseline;
 }
 
 .address {
@@ -52,12 +53,11 @@
 /* --------------------FOOTER SOCIAL CONTACTS-------- */
 
 
-.join {
-    &__block {
-        width: 206px;
-        height: 80px;
-        margin-left: 70px;
-    }
+.join {    
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+    
     &__text {
         font-style: normal;
         font-weight: 700;
@@ -70,45 +70,11 @@
 }
 
 
-.join-soc {
-    &__list {
-        padding-inline-start: 0px;
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
-    &__item {
-        width: 44px;
-        height: 44px;
-    }
-    &__link {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);
-        color: var(--white-text-color);
-        transition: background-color var(--duration-time) var(--function-time);
-        &:hover,
-        &:focus {
-            background-color: var(--accent-color);
-        }
-    }
-    &__icon {
-        fill: currentColor;
-    }
-}
-
 /* --------------FOOTER SUBSCRIBE BLOCK ----------- */
 
-.subscribe {
-    &__block {
-        margin-left: 93px;
-    }
+.subscribe {   
+    margin-left: 93px;
+    
     &__text {
         margin-bottom: 20px;
         font-style: normal;

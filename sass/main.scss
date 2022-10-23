@@ -3,8 +3,10 @@
 @import './base/global';
 @import './base/hidden';
 
-//UTILS (VARS)
+//UTILS (VARS, FILTER, SOCIAL)
 @import './utils/vars';
+@import './utils/filter';
+@import './utils/social';
 
 //COMPONENTS (HEADER, SECTIONS, FOOTER)
 @import './components/logo';

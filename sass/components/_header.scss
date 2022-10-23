@@ -5,13 +5,18 @@
     margin-right: auto;
     background-color: var(--primary-bg-color);
     border-bottom: 1px solid #ECECEC;
-    &-container {
-        display: flex;
-        align-items: center;
-    }
+    // &-container {
+    //     display: flex;
+    //     align-items: center;
+    // }
     &__logo {
     margin-right: 93px;
     }
+}
+
+.container--header {
+    display: flex;
+    align-items: center;
 }
 
 .nav__list {
